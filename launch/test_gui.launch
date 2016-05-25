@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="js_pub">
+        <param name="use_gui" value="true"/>
+    </node>
+</launch>
